@@ -11,23 +11,3 @@ lessons:
       user: OANANICOLAE
       warehouse: COMPUTE_WH
   target: dev
-my-snowflake-db:
-  outputs:
-    dev:
-      account: NIRAPHR.VLB67401
-      client_session_keep_alive: false
-      connect_retries: 0
-      connect_timeout: 10
-      database: EXERCISE_DB
-      password: OanaNicolae20
-      query_tag: test
-      retry_all: false
-      retry_on_database_errors: false
-      reuse_connections: true
-      role: ACCOUNTADMIN
-      schema: PUBLIC
-      threads: 1
-      type: snowflake
-      user: OANANICOLAE
-      warehouse: COMPUTE_WH
-  target: dev
